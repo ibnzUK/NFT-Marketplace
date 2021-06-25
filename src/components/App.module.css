@@ -14,36 +14,5 @@ h1 {
     text-align: center;
     filter: drop-shadow(3px 3px 4px #0000007a);
 }
-h2 {
-    padding: 3em;
-    color: rgba(235, 93, 164, 0.993);
-    text-align: center; 
-}
-h3 {
-    color: white;
-    font-size: 1em;
-    margin: 5em;
-    padding: 2em;
-}
 
 
-.Card {
-background-color: rgb(36, 36, 36);
-height: 80vh;
-margin: 4em;
-border-radius: 2em;
-
-
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(255, 0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 0.7em;
-    filter: drop-shadow(3px 3px 4px #0000007a);
-}
