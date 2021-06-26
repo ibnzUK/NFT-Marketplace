@@ -24,7 +24,7 @@ h1 {
   height: auto;
   display: grid;
   grid-template-columns: 1em auto auto auto 1em;
-  grid-template-rows: 5em 5em 90vh 3em 3em;
+  grid-template-rows: auto 5em 90vh 3em 3em;
 }
 
 .Child {
@@ -35,16 +35,26 @@ h1 {
 }
 
 .Header {
-  grid-column-start: 3;
-  grid-column-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 2;
 
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
 }
 
 .Logo {
-  grid-column-start: 1;
-  grid-column-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 1;
+ 
+  text-align: center;
+}
+
+.Address {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }

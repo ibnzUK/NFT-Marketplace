@@ -9,11 +9,11 @@ const App = () => {
     <div className={classes.Grid}>
       <div className={classes.Logo}>
         {' '}
-        <Logo />
       </div>
       <div className={classes.Header}>
-        <h1>nft Marketplace</h1>
+        <h1> nft marketplace</h1>
       </div>
+    <div className={classes.Address}><h3>my address: 0x082937328972637263723728</h3></div>
       <div className={classes.Child}>
         <Card />
         <Footer />
