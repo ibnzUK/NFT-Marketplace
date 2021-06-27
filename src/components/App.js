@@ -36,9 +36,7 @@ const App = () => {
       setCurrentNetwork(networkType);
       console.log(networkId);
     } else {
-      window.alert(
-        'Metamask Not Detected'
-      );
+      window.alert('Metamask Not Detected');
     }
   };
 
@@ -50,11 +48,14 @@ const App = () => {
           <h1> nft marketplace</h1>
         </div>
         <div className={classes.Address}>
-          <h3>User: {userAddress}</h3>
+          {window.ethereum ? <h3>User: {userAddress}</h3> : <h3>please install metamask first</h3>}
         </div>
         <div className={classes.Child}>
           <Card />
-          <Footer network={currentNetwork} />
+      
+        </div>
+        <div className={classes.Foot}>
+        <Footer network={currentNetwork} />
         </div>
       </div>
     </>
