@@ -4,6 +4,7 @@
   "description": "nft marketplace",
   "author": "Justinas Kairys",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
@@ -20,6 +21,7 @@
     "react-dom": "16.8.4",
     "react-scripts": "2.1.3",
     "truffle": "5.1.39",
+    "truffle-flattener": "^1.5.0",
     "web3": "1.2.11"
   },
   "scripts": {
