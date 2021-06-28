@@ -41,6 +41,26 @@ Feel free to add extra functions or improvements, This helps me to familiarise m
 
 - Added Skeleton
 
+## Changes in V 0.02
+
+- Connected to Metamask
+- Added ERC721 Contract
+- Started NFTMinter Contract
+- Added truffle-flattener and flattened openZeppelin contracts
+- Contracts and Solc compiler updated to version: "^0.8" 
+- Added Tests and Migration 
+
+# Tests
+
+
+  Contract: NFTMinter
+    Checking if conract is deployed to network
+0x9DfadC943871adcC66981f14679e51d0eFf95471
+      ✓ contract deployed sucessfully (99ms)
+
+
+  1 passing (284ms)
+
 
 
 
