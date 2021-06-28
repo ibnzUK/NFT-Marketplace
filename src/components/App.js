@@ -43,19 +43,19 @@ const App = () => {
   return (
     <>
       <div className={classes.Grid}>
-        <div className={classes.Logo}></div>
         <div className={classes.Header}>
           <h1> nft marketplace</h1>
-        </div>
-        <div className={classes.Address}>
-          {window.ethereum ? <h3>User: {userAddress}</h3> : <h3>please install metamask first</h3>}
+          {window.ethereum ? (
+            <p>User: {userAddress}</p>
+          ) : (
+            <p>please install metamask first</p>
+          )}
         </div>
         <div className={classes.Child}>
           <Card />
-      
         </div>
         <div className={classes.Foot}>
-        <Footer network={currentNetwork} />
+          <Footer network={currentNetwork} />
         </div>
       </div>
     </>
