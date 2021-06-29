@@ -55,11 +55,17 @@ Feel free to add extra functions or improvements, This helps me to familiarise m
 
   Contract: NFTMinter
     Checking if conract is deployed to network
-0x9DfadC943871adcC66981f14679e51d0eFf95471
-      ✓ contract deployed sucessfully (99ms)
+      ✓ contract deployed sucessfully
+      ✓ contract has matching name (148ms)
+      ✓ token has symbol (147ms)
+    Minting of new token
+      ✓ creates new token (351ms)
+      ✓ mints tokens from 0x0 address (400ms)
+      ✓ send tokens to minter (330ms)
+      ✓ token total supply is updated (558ms)
 
 
-  1 passing (284ms)
+  7 passing (3s)
 
 
 
