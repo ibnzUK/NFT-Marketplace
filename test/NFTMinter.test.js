@@ -56,6 +56,8 @@ contract('NFTMinter', (accounts) => {
       const result = await contract.mint('FourthToken');
       const event = result.logs[0].args;
       assert.equal(event.tokenId.toNumber(), 3, 'total number of tokens is 4');
+      //FAIL: Trying to mint token with same meta
+      await contract.mint('FourthToken').should.be.rejected;
     });
   });
 });

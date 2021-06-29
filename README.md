@@ -52,8 +52,7 @@ Feel free to add extra functions or improvements, This helps me to familiarise m
 
 # Tests
 
-
-  Contract: NFTMinter
+Contract: NFTMinter
     Checking if conract is deployed to network
       ✓ contract deployed sucessfully
       ✓ contract has matching name (148ms)

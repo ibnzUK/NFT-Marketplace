@@ -11,6 +11,7 @@ contract NFTMinter is ERC721 {
     constructor() ERC721("Minter", "NewNFT") {}
     
     function mint(string memory _newMeta) public {
+        require(!_metaExists[_newMeta]);
         meta.push(_newMeta);
         uint _id = meta.length - 1;
         
