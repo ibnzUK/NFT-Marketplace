@@ -1,11 +1,6 @@
 footer {
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(255, 0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 0.7em;
-    filter: drop-shadow(3px 3px 4px #0000007a);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 0.7em;
+  filter: drop-shadow(3px 3px 4px #0000007a);
 }

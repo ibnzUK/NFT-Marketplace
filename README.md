@@ -17,7 +17,7 @@ This is a React, JS, Solidity application, for issue, mint, list and sell NFT (E
 
 ## Community coders, please commit
 
-Feel free to add extra functions or improvements, This helps me to familiarise myself with source control and open source project managing. By contributing you also help to build yet another open-source tool on TRON Network. 
+Feel free to add extra functions or improvements, This helps me to familiarise myself with source control and open source project managing.
 
 -----
 
@@ -52,16 +52,16 @@ Feel free to add extra functions or improvements, This helps me to familiarise m
 
 # Tests
 
-Contract: NFTMinter
+  Contract: NFTMinter
     Checking if conract is deployed to network
       ✓ contract deployed sucessfully
-      ✓ contract has matching name (148ms)
-      ✓ token has symbol (147ms)
+      ✓ contract has matching name (134ms)
+      ✓ token has symbol (196ms)
     Minting of new token
-      ✓ creates new token (351ms)
-      ✓ mints tokens from 0x0 address (400ms)
-      ✓ send tokens to minter (330ms)
-      ✓ token total supply is updated (558ms)
+      ✓ creates new token (476ms)
+      ✓ mints tokens from 0x0 address (549ms)
+      ✓ send tokens to minter (559ms)
+      ✓ token total supply is updated (1481ms)
 
 
   7 passing (3s)

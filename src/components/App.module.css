@@ -1,8 +1,6 @@
 /* Styles go here */
 
 html {
-  background-color: rgb(44, 44, 44);
-  background: rgb(255, 0, 60);
   background: linear-gradient(
     203deg,
     rgba(255, 0, 60, 1) 0%,
@@ -13,21 +11,17 @@ html {
 }
 
 .Header h1 {
-  /* margin-top: 3em; */
   color: rgba(28, 217, 241, 0.993);
-  text-align: center;
   filter: drop-shadow(3px 3px 4px #0000007a);
   font-size: 3em;
 }
 .Header p {
   color: rgba(255, 255, 255, 0.993);
-  text-align: center;
   filter: drop-shadow(3px 3px 4px #0000007a);
   font-size: 0.8em;
 }
 
 .Grid {
-  height: auto;
   display: grid;
   grid-template-columns: 1em auto auto auto 1em;
   grid-template-rows: auto 5em 60em 3em 3em auto;
@@ -35,22 +29,15 @@ html {
 
 .Child {
   grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
 }
 
 .Header {
   grid-column-start: 3;
-  grid-column-end: 4;
-
-  grid-row-start: 1;
-  grid-row-end: 1;
+  text-align: center;
 }
 
 .Foot {
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 4;
-
 }
